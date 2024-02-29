@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TailwindCSS Practise</title>
+  </head>
+  <body class="bg-slate-950">
+    <!-- This is navbar -->
+    <nav
+      class="w-full h-14 bg-indigo-200 flex justify-between px-4 items-center md:px-4"
+    >
+      <div class="text-2xl text-indigo-700 font-bold">Faisal Skills</div>
+      <ul class="md:flex hidden font-semibold">
+        <li class="mx-[10px] cursor-pointer">Home</li>
+        <li class="mx-[10px] cursor-pointer">About</li>
+        <li class="mx-[10px] cursor-pointer">Contact</li>
+      </ul>
+      <div
+        class="hidden md:block px-2 py-2 bg-indigo-700 text-white rounded font-bold cursor-pointer"
+      >
+        Login/Signup
+      </div>
+      <div class="md:hidden">
+        <a class="text-4xl" href="#">&#8801;</a>
+      </div>
+    </nav>
+    <!-- Navbar ends here -->
+
+    <!-- Image Section Starts Here -->
+
+    <header class="w-full h-2/3">
+      <img
+        class="w-full h-full hidden md:block object-cover"
+        src="https://images.pexels.com/photos/38544/imac-apple-mockup-app-38544.jpeg?auto=compress&cs=tinysrgb&w=600"
+        alt=""
+      />
+      <img
+        class="w-full md:hidden object-cover"
+        src="https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&w=600"
+        alt=""
+      />
+    </header>
+
+    <!-- Image Section ends here -->
+
+    <!-- Our Students Section -->
+    <div
+      class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10"
+    >
+      <div class="w-full h-auto flex flex-wrap flex-col items-center">
+        <p class="text-indigo-800 font-bold text-3xl">
+          "Pure Hardwork, No Shortcuts!"
+        </p>
+        <div
+          class="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-12"
+        ></div>
+      </div>
+      <!-- Cards -->
+      <div class="w-full flex flex-wrap justify-evenly">
+        <!-- Card 1 -->
+        <div class="w-46 flex flex-col items-center mb-12">
+          <img
+            src="https://images.pexels.com/photos/4062297/pexels-photo-4062297.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="Courses"
+            class="w-44 h-44 rounded-full hover:opacity-50"
+          />
+          <p class="text-3xl font-bold text-white">300+</p>
+          <p class="text-2xl font-bold text-gray-500">Different Courses</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="w-46 flex flex-col items-center mb-12">
+          <img
+            src="https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="Sudents Enrolled"
+            class="w-44 h-44 rounded-full  hover:opacity-50"
+          />
+          <p class="text-3xl font-bold text-white">500,000+</p>
+          <p class="text-2xl font-bold text-gray-500">Students Enrolled</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="w-46 flex flex-col items-center mb-12">
+          <img
+            src="https://images.pexels.com/photos/1205651/pexels-photo-1205651.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="Successfull Transition"
+            class="w-44 h-44 rounded-full  hover:opacity-50"
+          />
+          <p class="text-3xl font-bold text-white">60,000+</p>
+          <p class="text-2xl font-bold text-gray-500">Successful Transition</p>
+        </div>
+      </div>
+    </div>
+    <div
+    class="w-full h-1 border-b-4 border-indigo-400 mt-2 rounded-2xl md:mt-4 mb-12"
+  ></div>
+    <!-- Our Students Section ends here -->
+
+    <!-- Our Product Section -->
+    <div class="w-full h-auto flex flex-wrap flex-col items-center">
+      <p class="text-indigo-800 font-bold text-3xl">"Our Products!"</p>
+      <div
+        class="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-12"
+      ></div>
+
+      <div class="w-[90%] h-auto flex flex-wrap justify-around">
+        <!--  1 -->
+        <div
+          class="w-44 flex flex-col items-center mb-12 border-white border-2 rounded-xl p-2"
+        >
+          <img
+            src="https://images.pexels.com/photos/802024/pexels-photo-802024.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt=""
+            class="w-24 h-24"
+          />
+          <p class="text-3xl font-bold text-white">Skills Lab</p>
+          <p class="text-xl font-semibold text-gray-500">
+            Supercharge your project
+          </p>
+        </div>
+        <!--  2 -->
+        <div
+          class="w-44 flex flex-col items-center mb-12 p-2"
+        >
+          <img
+            src="https://images.pexels.com/photos/4062297/pexels-photo-4062297.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt=""
+            class="w-24 h-24"
+          />
+          <p class="text-3xl font-bold text-white">Job Portal</p>
+          <p class="text-xl font-semibold text-gray-500">
+            Supercharge your project development with out robust lab.
+          </p>
+        </div>
+        <!--  3 -->
+        <div
+          class="w-44 flex flex-col items-center mb-12 p-2"
+        >
+          <img
+            src="https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt=""
+            class="w-24 h-24"
+          />
+          <p class="text-3xl font-bold text-white">Experience Portal</p>
+          <p class="text-xl font-semibold text-gray-500">
+            FU Skills self-paced experience portal priorities hands-on training
+            with 570+ internship projects.
+          </p>
+        </div>
+        <!--  4 -->
+        <div
+          class="w-44 flex flex-col items-center mb-12 p-2"
+        >
+          <img
+            src="https://images.pexels.com/photos/7241419/pexels-photo-7241419.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt=""
+            class="w-24 h-24"
+          />
+          <p class="text-3xl font-bold text-white">affiliate</p>
+          <p class="text-xl font-semibold text-gray-500">
+            Explore affiliate marketing opportunties with FU Skills and attain
+            financial freedom.
+          </p>
+        </div>
+        <!--  5 -->
+        <div
+          class="w-44 flex flex-col items-center mb-12 p-2"
+        >
+          <img
+            src="https://images.pexels.com/photos/15613455/pexels-photo-15613455/free-photo-of-wedding-decoration-of-restaurant-hall.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt=""
+            class="w-24 h-24"
+          />
+          <p class="text-3xl font-bold text-white">Hall of fame</p>
+          <p class="text-xl font-semibold text-gray-500">
+            Our student placements and 100k+ career transitions speak volumes
+            about out courses.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Our Product Section ends here -->
+
+    <!-- Our footer Starts here -->
+    
+    <footer
+      class="w-full px-8 bg-gray-900 text-white pt-8 flex flex-col md:flex-row flex-wrap justify-between"
+    >
+      <div class="mb-8">
+        <img
+          class="w-22 h-16"
+          src="data:image/png;base64,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"
+          alt=""
+        />
+        <p class="my-4">Email us: support@fwskills.com</p>
+        <img
+          class="w-22 h-16"
+          src="data:image/png;base64,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"
+          alt=""
+        />
+      </div>
+
+      <div class="mb-8">
+        <h1 class="font-bold text-xl mt-4">FU Skills</h1>
+        <div
+          class="w-32 h-1 border-b-2 border-yellow-400 rounded-2xl my-2"
+        ></div>
+        <div>
+          <p>About us</p>
+          <p>FAQs</p>
+          <p>Privacy policy</p>
+        </div>
+      </div>
+
+      <div class="mb-8">
+        <h1 class="font-bold text-xl mt-4">Products</h1>
+        <div
+          class="w-32 h-1 border-b-2 border-yellow-400 rounded-2xl my-2"
+        ></div>
+        <div>
+          <p>FU Skills Lab</p>
+          <p>Job Portal</p>
+          <p>Experience Portal</p>
+          <p>Become an affiliate</p>
+          <p>Hall of fame</p>
+        </div>
+      </div>
+
+      <div class="mb-8">
+        <h1 class="font-bold text-xl mt-4">Links</h1>
+        <div
+          class="w-32 h-1 border-b-2 border-yellow-400 rounded-2xl my-2"
+        ></div>
+        <div>
+          <p>Discord</p>
+          <p>FU Youtube</p>
+          <p>Careers</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Our footer ends here -->
+  </body>
+</html>
